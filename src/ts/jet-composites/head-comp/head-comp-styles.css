@@ -1,0 +1,22 @@
+/* This file is where css selectors for the component go.
+   There will be hard coded properties and properties controlled by variables, for example
+
+   head-comp .head-comp-value-text {
+   color: var(--head-comp-value-text-color);
+   display: inline-block;
+	 }
+*/
+
+head-comp:not(.oj-complete){
+  visibility: hidden;
+}
+
+head-comp{
+	min-height: 50px;
+	width: 50px;
+}
+
+head-comp[hidden]
+{
+  display: none;
+}
